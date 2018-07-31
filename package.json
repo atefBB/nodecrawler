@@ -1,0 +1,18 @@
+{
+  "name": "nodecrawler",
+  "version": "0.0.1",
+  "description": "Test nodecrawler package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "crawler"
+  ],
+  "author": "Atef Ben Ali <atef.bettaib@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "crawler": "^1.1.4"
+  }
+}
