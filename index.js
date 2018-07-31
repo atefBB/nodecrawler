@@ -7,6 +7,8 @@ console.log(websites);
 
 var c = new Crawler({
     maxConnections: 10,
+    userAgent: ['SeoRank Bot 0.1', 'Novatis Bot 0.1'],
+    rotateUA: true,
     // This will be called for each crawled page
     callback: function(error, res, done) {
         if (error) {
@@ -46,6 +48,6 @@ c.queue(['http://www.google.com/', 'http://www.yahoo.com']);
 //     }
 // }]);
 // Queue some HTML code directly without grabbing (mostly for tests)
-c.queue([{
-    html: '<p>This is a <strong>test</strong></p>'
-}]);
+// c.queue([{
+//     html: '<p>This is a <strong>test</strong></p>'
+// }]);
