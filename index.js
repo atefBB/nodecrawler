@@ -1,5 +1,5 @@
 var Crawler = require("crawler"),
-    url = 'https://www.google.com/search?hl=en&q=' 
+    url = 'https://www.google.com/search?hl=en&num=100&q=' 
           + encodeURI(process.argv.slice(2).join(' '));
 
 (new Crawler).queue({
@@ -11,7 +11,7 @@ var Crawler = require("crawler"),
         if (error) {
             console.log(error)
         } else {
-            // console.log(response.body);
+            // console.log(response.$('cite').text());
             // response.headers
             console.log(response.statusCode);
         }
