@@ -5,8 +5,6 @@ var Crawler = require("crawler"),
 (new Crawler).queue({
     uri: url,
     userAgent: [
-        "SeoRank Crawler: SeoRankBot/0.1 (+https://www.seorank.tn/contact-referencement-web-tunisie/)", 
-        "Novatis Crawler: NovatisBot/0.1 (+https://www.novatis.tn/contact-agence-novatis/)", 
         "Opera/9.80 (J2ME/MIDP; Opera Mini/4.2.14912/870; U; id) Presto/2.4.15", 
         "APIs-Google (+https://developers.google.com/webmasters/APIs-Google.html)", 
         "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)", 
