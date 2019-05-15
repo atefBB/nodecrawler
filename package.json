@@ -13,6 +13,6 @@
   "author": "Atef Ben Ali <atef.bettaib@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "crawler": "^1.1.4"
+    "crawler": "^1.2.1"
   }
 }
